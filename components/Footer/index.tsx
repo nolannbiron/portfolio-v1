@@ -52,14 +52,14 @@ const Footer = () => {
     return(
         <StyledFooter justifyContent={content ?? 'flex-end'}>
             <FooterNav>
-                <a href="https://www.linkedin.com/in/nolann-biron/" target="_blank">
+                <a href="https://www.linkedin.com/in/nolann-biron/" rel="noopener noreferrer" target="_blank">
                     <Text>
-                        navigate<span className="parenthesis">(</span><span className="code">'/linkedin'</span><span className="parenthesis">)</span>
+                        navigate<span className="parenthesis">(</span><span className="code">&apos;/linkedin&apos;</span><span className="parenthesis">)</span>
                     </Text>
                 </a>
-                <a href="https://www.github.com/nolannbiron" target="_blank">
+                <a href="https://www.github.com/nolannbiron" rel="noopener noreferrer" target="_blank">
                     <Text>
-                        navigate<span className="parenthesis">(</span><span className="code">'/github'</span><span className="parenthesis">)</span>
+                        navigate<span className="parenthesis">(</span><span className="code">&apos;/github&apos;</span><span className="parenthesis">)</span>
                     </Text>
                 </a>
             </FooterNav>

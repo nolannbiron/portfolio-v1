@@ -1,5 +1,4 @@
-import Document, { DocumentContext, Html, Main, NextScript } from 'next/document'
-import Head from 'next/head'
+import Document, { DocumentContext, Html, Main, NextScript, Head } from 'next/document'
 
 class MyDocument extends Document {
   render() {

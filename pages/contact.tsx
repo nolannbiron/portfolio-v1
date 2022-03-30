@@ -8,7 +8,7 @@ import Link from 'next/link';
 const ContactLink = ({ href, name }: {href: string, name: string}) => {
     const theme = useTheme();
     return(
-      <a href={href} target="_blank">
+      <a href={href} rel="noopener noreferrer" target="_blank">
         <TextShadow isLink cursor="pointer" fontSize="28px" color={theme.colors.code.function}>{name}</TextShadow>
       </a>
   )

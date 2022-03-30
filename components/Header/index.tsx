@@ -40,21 +40,21 @@ const Header = () => {
 
     return(
         <StyledHeader>
-            <Link href="/">
+            <Link href="/" passHref>
                 <Text cursor={"pointer"} fontSize="40px">🚀</Text>
             </Link>
             <StyledNav>
-                <Link href="/projects">
+                <Link href="/projects" passHref>
                     <Text>
                         {`<`}<TextComponent>Projects</TextComponent>{` />`}
                     </Text>
                 </Link>
-                <Link href="/me">
+                <Link href="/me" passHref>
                     <Text>
                         {`<`}<TextComponent>AboutMe</TextComponent>{` />`}
                     </Text>
                 </Link>
-                <Link href="/contact">
+                <Link href="/contact" passHref>
                     <Text>
                         {`<`}<TextComponent>Contact</TextComponent>{` />`}
                     </Text>

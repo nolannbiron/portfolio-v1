@@ -68,7 +68,7 @@ const ProjectsPage: NextPage = () => {
             </StyledHeading>
           </Flex>
           <ProjectsWrapper projects={projectsList.all} />
-          <Text my={4} fontSize={['16px', '20px']} textAlign="center"><Constant>More coming soon</Constant> <TextVariable><small>(I'm still adding them)</small></TextVariable></Text>
+          <Text my={4} fontSize={['16px', '20px']} textAlign="center"><Constant>More coming soon</Constant> <TextVariable><small>(I&apos;m still adding them)</small></TextVariable></Text>
         </Container>
       </main>
     </>

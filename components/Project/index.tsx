@@ -43,11 +43,11 @@ const Project = ({
           {github && <ProjectLink Icon={AiFillGithub} href={github} />}
           {website && <ProjectLink Icon={FiExternalLink} href={website} />}
         </Flex>
-        <Text fontSize={["16px", "20px"]}>{description}</Text>
+        <Text fontSize={["16px", "16px", "20px"]}>{description}</Text>
         <Flex wrap="wrap" mt={3} gap={3}>
           {keywords.map((keyword, index) => (
             <Tag
-              fontSize={["12px", "13px", "14px"]}
+              fontSize={["13px", "13px", "15px"]}
               key={`tag-${title}-${index}`}
               color="white"
               // boxShadow={`0 0 10px ${theme.colors.code.component}`}

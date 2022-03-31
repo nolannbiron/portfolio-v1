@@ -29,7 +29,7 @@ const Home: NextPage = () => {
               color="white"
               as="h1"
             >
-              A little bit of me
+             Some words about me
             </TextShadow>
             <Text mt={5} fontSize={["15px", "18px", "28px"]}>
               Hello! My name is Nolann, I&apos;m French 🇫🇷, living in Bordeaux

@@ -49,7 +49,7 @@ const ProjectsPage: NextPage = () => {
           width={["100%", "100%", "100%", "fit-content"]}
         >
           <Flex pb={5} alignItems="start" flexDir="column">
-            <StyledHeading fontSize={["28px", "46px"]}>
+            <StyledHeading fontSize={["28px", "34px", "46px"]}>
               <TextKey>const</TextKey> <Constant>projects</Constant> ={" "}
               <TextFunction>useProjects</TextFunction>();
             </StyledHeading>

@@ -57,7 +57,7 @@ const ContactPage: NextPage = () => {
             </TextShadow>
             <Text
               opacity={0.7}
-              mb={3}
+              mb={5}
               fontWeight="light"
               fontSize={["16px", "17px", "22px"]}
             >

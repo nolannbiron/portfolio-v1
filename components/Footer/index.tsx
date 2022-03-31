@@ -10,6 +10,12 @@ const StyledFooter = styled.footer<{ justifyContent: string }>`
   display: flex;
   justify-content: ${(props) => props.justifyContent};
   padding: 30px 40px;
+  @media (max-width: 900px) {
+    flex-direction: column-reverse;
+    padding: 30px 15px;
+    align-items: center;
+    gap: 10px;
+  }
 `;
 
 const FooterNav = styled.div`
@@ -49,7 +55,7 @@ const Footer = () => {
 
   return (
     <StyledFooter justifyContent={"space-between"}>
-      <Text>
+      <Text opacity={0.7}>
         <small>2022 | © {`<NolannBiron />`}</small>
       </Text>
       <FooterNav>

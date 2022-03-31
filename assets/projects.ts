@@ -38,7 +38,7 @@ export const projectsList: ProjectsList = {
     },
     {
       title: "PonySwap",
-      description: "",
+      description: "PancakeSwap but with Ponys. Forked from the original. Added Airdrops and Referrals.",
       keywords: [
         "react",
         "Solidity",

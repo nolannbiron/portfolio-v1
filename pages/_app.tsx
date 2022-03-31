@@ -11,6 +11,8 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Layout>
         <Head>
           <title>{`<NolannBiron />`}</title>
+          <link rel="shortcut icon" href="favicon.svg" />
+          <link href="http://fonts.cdnfonts.com/css/menlo" rel="stylesheet" />
         </Head>
         <Component {...pageProps} />
       </Layout>

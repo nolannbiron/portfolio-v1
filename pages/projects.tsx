@@ -1,11 +1,11 @@
-import { Container, Flex, Heading, useTheme } from "@chakra-ui/react";
+import { Container, Flex, Heading, Text, useTheme } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import { fadeInUp } from "react-animations";
 import { keyframes } from "@emotion/react";
 import styled from "@emotion/styled";
 import ProjectsWrapper from "../components/ProjectsList";
 import { projectsList } from "../assets/projects";
-import { Constant, TextFunction, TextKey } from "../components/Text";
+import { Constant, TextFunction, TextKey, TextVariable } from "../components/Text";
 
 const StyledHeading = styled(Heading)`
   font-weight: bolder;
@@ -68,6 +68,7 @@ const ProjectsPage: NextPage = () => {
             </StyledHeading>
           </Flex>
           <ProjectsWrapper projects={projectsList.all} />
+          <Text my={4} fontSize={['16px', '20px']} textAlign="center"><Constant>More coming soon</Constant> <TextVariable><small>(I'm still adding them)</small></TextVariable></Text>
         </Container>
       </main>
     </>

@@ -121,6 +121,32 @@ export const projectsList: ProjectsList = {
         github: "https://github.com/nolannbiron/SeppaDiary",
       },
     ],
-    
+    "2021": [
+      {
+        title: "DividendTracer-api",
+        description:
+          "Rest API in Node.JS for dividendtracer.com, it handles the trendings coins, user's search history and bookmarks.",
+        keywords: [
+          "node.js",
+          "express",
+          "mongodb",
+          "mongoose",
+          "api",
+        ],
+        github: "https://github.com/nolannbiron/dividendtracer-api",
+      },
+      {
+        title: "Supertrendy",
+        description:
+          "A Node.js bot that uses Supertrend indicator and Binance CEX",
+        keywords: [
+          "node.js",
+          "binance",
+          "supertrend",
+          "bot",
+          "telegram",
+        ],
+      },
+    ]
   }
 }

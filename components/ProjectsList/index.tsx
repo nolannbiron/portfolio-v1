@@ -33,9 +33,9 @@ const ProjectsWrapper = ({ projects, withDate }: Props) => {
 
   return(
       <Flex direction="column" pt={5} gap={4}>
-          {Object.keys(projects).map((key) => (
+          {Object.keys(projects).sort((a, b) => parseFloat(b) - parseFloat(a)).map((key) => (
             <>
-              <Text fontWeight="bold" fontSize={['18px', "24px"]}><TextImport>{key}</TextImport></Text>
+              <Text fontWeight="bold" fontSize={['18px', "26px"]}><TextImport>{key}</TextImport></Text>
               {projects[key].map((project, index) => (
                 <Project
                   key={`project-${index}`}

@@ -43,6 +43,13 @@ const FooterNav = styled.div`
         }
     }
     animation: 1s ${animation};
+
+    @media (max-width: 900px){
+        gap: 15px;
+        p{
+            font-size: 13px;
+        }
+    }
 `
 
 const Footer = () => {

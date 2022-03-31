@@ -25,6 +25,8 @@ const styles = {
         bg: 'bg.body',
         color: 'white',
         fontFamily: 'Menlo, monospace',
+        width: '100%',
+        height: '100%',
       },
       // styles for the `a`
       a: {

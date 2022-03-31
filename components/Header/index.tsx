@@ -41,10 +41,6 @@ const StyledNav = styled.nav`
 
     @media(max-width: 900px){
         gap: 15px;
-        p{
-            font-size: 13px;
-        }
-
     }
 `
 
@@ -57,17 +53,17 @@ const Header = () => {
             </Link>
             <StyledNav>
                 <Link href="/projects" passHref>
-                    <Text>
+                    <Text fontSize={["13px", "15px", '16px']}>
                         {`<`}<TextComponent>Projects</TextComponent>{` />`}
                     </Text>
                 </Link>
                 <Link href="/me" passHref>
-                    <Text>
+                    <Text fontSize={["13px", "15px", '16px']}>
                         {`<`}<TextComponent>AboutMe</TextComponent>{` />`}
                     </Text>
                 </Link>
                 <Link href="/contact" passHref>
-                    <Text>
+                    <Text fontSize={["13px", "15px", '16px']}>
                         {`<`}<TextComponent>Contact</TextComponent>{` />`}
                     </Text>
                 </Link>

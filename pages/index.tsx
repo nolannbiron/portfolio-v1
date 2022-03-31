@@ -9,14 +9,16 @@ const Home: NextPage = () => {
   const animation = keyframes`${fadeInDown}`;
 
   return (
-      <section style={{height: "100%", display: 'flex', alignItems: "center"}}>
-          <Container maxW={["100%", "100%", "100%", "55%"]}>
-            <Flex animation={`1s ${animation}`} mb={5} alignItems="baseline" flexDir="column">
-              <TextShadow fontWeight="bold" fontSize="56px" as="h1">Passionate Full-Stack Developer</TextShadow>
-              <Text mt={3} fontSize="28px">Hi there 👋 My name is Nolann and I build some stuff living in the web, blockchain or outside. </Text>
-            </Flex>
-          </Container>
-      </section>
+      <>
+        <section style={{height: "100%", display: 'flex', alignItems: "center"}}>
+            <Container maxW={["100%", "100%", "100%", "55%"]}>
+              <Flex animation={`1s ${animation}`} mb={5} alignItems="baseline" flexDir="column">
+                <TextShadow fontWeight="bold" fontSize="56px" as="h1">Passionate Full-Stack Developer</TextShadow>
+                <Text mt={3} fontSize="28px">Hi there 👋 My name is Nolann and I build some stuff living in the web, blockchain or outside. </Text>
+              </Flex>
+            </Container>
+        </section>
+      </>
   )
 }
 

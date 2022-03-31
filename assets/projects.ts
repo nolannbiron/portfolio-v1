@@ -147,6 +147,52 @@ export const projectsList: ProjectsList = {
           "telegram",
         ],
       },
+      {
+        title: "Signature Promotion - Paulette et Lulu",
+        description:
+          "French real estate promoter. Built during my time at Seppa.",
+        keywords: [
+          "html",
+          "css",
+          "javascript"
+        ],
+        website: "https://floirac.signature-promotion.fr/",
+      },
+      {
+        title: "Signature Promotion - Explore",
+        description:
+          "French real estate promoter. Built during my time at Seppa.",
+        keywords: [
+          "html",
+          "css",
+          "javascript"
+        ],
+        website: "https://explore.signature-promotion.fr/",
+      },
+      {
+        title: "Signature Promotion - Carcans",
+        description:
+          "French real estate promoter. Built during my time at Seppa.",
+        keywords: [
+          "html",
+          "css",
+          "javascript"
+        ],
+        website: "https://carcans.signature-promotion.fr/",
+      },
+      {
+        title: "Andiiss",
+        description:
+          "French national sport association. Built during my time at Seppa.",
+        keywords: [
+          "html",
+          "css",
+          "javascript",
+          "php",
+          "wordpress"
+        ],
+        website: "https://andiiss.fr/",
+      },
     ]
   }
 }

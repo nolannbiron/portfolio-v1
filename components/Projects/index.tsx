@@ -13,7 +13,7 @@ const ProjectsWrapper = ({projects}: Props) => {
     const animation = keyframes`${fadeInUp}`;
 
     return(
-        <Flex animation={`1s ${animation}`} direction="column" pt={5} gap={4}>
+        <Flex direction="column" pt={5} gap={4}>
             {projects.map((project, index) => (
                 <Project
                     key={`project-${index}`}

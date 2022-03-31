@@ -21,10 +21,11 @@ const ContactPage: NextPage = () => {
   return (
     <>
       <section style={{height: "100%", display: 'flex'}}>
-          <Container pt={24} maxW={["100%", "100%", "100%", "55%"]}>
+        <Container maxW={"container.lg"} animation={`1s ${animation}`} pt={24} width={['100%', '100%', '100%', 'fit-content']}>
             <Flex animation={`1s ${animation}`} mb={5} alignItems="baseline" flexDir="column">
               <TextShadow fontWeight="bold" mb={3} fontFamily="menlo" fontSize="60px" as="h1">👋🏼</TextShadow>
-              <TextShadow fontWeight="bold" mb={3} fontFamily="menlo" fontSize="56px" as="h2">Say Hello_</TextShadow>
+              <TextShadow fontWeight="bold" fontFamily="menlo" fontSize="56px" as="h2">Say Hello_</TextShadow>
+              <Text opacity={0.7} mb={3} fontWeight="light" fontSize={['16px',  "17px", "22px"]}>Tell me about React, Typescript, Solidity or crypto-currency.</Text>
               <ContactLink name="github" href="https://www.github.com/nolannbiron" />
               <ContactLink name="linkedin" href='https://www.linkedin.com/in/nolann-biron/' />
             </Flex>

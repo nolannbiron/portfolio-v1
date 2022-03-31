@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Head>
           <title>{`<NolannBiron />`}</title>
           <link rel="shortcut icon" href="favicon.svg" />
-          <link href="http://fonts.cdnfonts.com/css/menlo" rel="stylesheet" />
+          <link href="https://fonts.cdnfonts.com/css/menlo" rel="stylesheet" />
           <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=width" />
         </Head>
         <Component {...pageProps} />

@@ -12,7 +12,7 @@ const Layout = ({ children }: LayoutProps) => {
     return(
         <Flex flexDir="column" height="100vh">
             <Header />
-            <Box flex="1 0 auto">
+            <Box px={5} flex="1 0 auto">
                 {children}
             </Box>
             <Footer />

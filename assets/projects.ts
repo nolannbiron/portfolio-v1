@@ -16,7 +16,7 @@ export const projectsList: ProjectsList = {
         },
         {
             title: 'PonySwap',
-            description: 'A dApp to track every rewards collected by holding a BEP20 token.',
+            description: '',
             keywords: ['react', 'web3', 'TypeScript', 'bscscanApi', 'ethers.js', 'styled-components'],
             website: "https://dividendtracer.com",
             github: 'https://github.com/nolannbiron/dividendtracer'
@@ -26,7 +26,7 @@ export const projectsList: ProjectsList = {
         {
             title: 'DividendTracer',
             description: 'A dApp to track every rewards collected by holding a BEP20 token.',
-            keywords: ['react', 'web3', 'TypeScript', 'bscscanApi', 'ethers.js', 'styled-components'],
+            keywords: ['react', 'web3', 'TypeScript', 'bscscanApi', 'ethers.js', 'styled-components', 'react', 'web3', 'TypeScript', 'bscscanApi', 'ethers.js', 'styled-components'],
             website: "https://dividendtracer.com",
             github: 'https://github.com/nolannbiron/dividendtracer'
         },

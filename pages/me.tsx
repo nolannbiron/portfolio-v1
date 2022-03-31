@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <>
       <section style={{height: "100%", display: 'flex', alignItems: "center"}}>
-          <Container maxW={['100%', '100%', '100%', '55%']}>
+        <Container maxW={"container.lg"} animation={`1s ${animation}`} width={['100%', '100%', '100%', 'fit-content']}>
             <Flex animation={`1s ${animation}`} mb={5} alignItems="baseline" flexDir="column">
               <TextShadow fontWeight="bold" fontSize={["24px", "27px", "56px"]} color='white' as="h1">A little bit of me</TextShadow>
               <Text mt={5} fontSize={["15px", "18px", "28px"]}>Hello! My name is Nolann, I&apos;m French 🇫🇷, living in Bordeaux 🍷. I enjoy building web and mobile applications since almost 4 years. </Text>

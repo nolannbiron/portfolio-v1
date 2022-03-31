@@ -50,7 +50,8 @@ const Footer = () => {
     const content = useBreakpointValue({ base: 'center', lg: 'flex-end' })
 
     return(
-        <StyledFooter justifyContent={content ?? 'flex-end'}>
+        <StyledFooter justifyContent={'space-between'}>
+            <Text><small>2022 | © Nolann Biron</small></Text>
             <FooterNav>
                 <a href="https://www.linkedin.com/in/nolann-biron/" rel="noopener noreferrer" target="_blank">
                     <Text fontSize={["13px", "14px", "16px"]}>

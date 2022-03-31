@@ -31,7 +31,7 @@ const Project = ({ title, description, keywords, github, website}: ProjectProps)
         <>
             <Box mb={6}>
                 <Flex alignItems="center" gap={3}>
-                    <Text fontWeight="bold" fontSize={['22px', '32px']}>{title}</Text>
+                    <Text fontWeight="bold" fontSize={['20px', "20px", '28px']}>{title}</Text>
                     {github &&
                         <ProjectLink Icon={AiFillGithub} href={github} />
                     }

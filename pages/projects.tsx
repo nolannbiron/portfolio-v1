@@ -45,16 +45,16 @@ const ProjectsPage: NextPage = () => {
     return (
         <>
             <main style={{height: "100%", display: 'flex'}}>
-                <Container animation={`1s ${animation}`} mt={[10, 20]} minW="65%">
+                <Container maxW={"container.lg"} animation={`1s ${animation}`} mt={[10, 20]} width={['100%', '100%', '100%', 'fit-content']}>
                     <Flex pb={5} alignItems="start" flexDir="column">
                         <StyledHeading fontSize={['28px', '46px']}><TextKey>const</TextKey> <Constant>projects</Constant> = <TextFunction>useProjects</TextFunction>();</StyledHeading>
                     </Flex>
                     <Flex pt={10} pb={5} alignItems="start" flexDir="column">
-                        <StyledHeading fontSize={['22px', '24px']}><span className="codeConstant">⭐️ projects</span>.<span className="codeVar">featured</span></StyledHeading>
+                        <StyledHeading fontSize={['22px', '26px']}><span className="codeConstant">⭐️ projects</span>.<span className="codeVar">featured</span></StyledHeading>
                     </Flex>
                     <ProjectsWrapper projects={projectsList.featured} />
                     <Flex pt={10} pb={5} alignItems="start" flexDir="column">
-                        <StyledHeading fontSize={['22px', '24px']}><span className="codeConstant">projects</span>.<span className="codeVar">all</span></StyledHeading>
+                        <StyledHeading fontSize={['22px', '26px']}><span className="codeConstant">projects</span>.<span className="codeVar">all</span></StyledHeading>
                     </Flex>
                     <ProjectsWrapper projects={projectsList.all} />
                 </Container>

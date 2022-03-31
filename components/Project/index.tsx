@@ -42,7 +42,7 @@ const Project = ({ title, description, keywords, github, website}: ProjectProps)
                 <Text fontSize={['16px', "22px"]}>{description}</Text>
                 <Flex wrap='wrap' mt={3} gap={3}>
                     {keywords.map((keyword, index) => (
-                        <Tag key={`tag-${title}-${index}`} color="white" boxShadow={`0 0 10px ${theme.colors.code.component}`} bg={theme.colors.code.component} variant="subtle">#{keyword}</Tag>
+                        <Tag fontSize={["12px", "13px", "16px"]} key={`tag-${title}-${index}`} color="white" boxShadow={`0 0 10px ${theme.colors.code.component}`} bg={theme.colors.code.component} variant="subtle">#{keyword}</Tag>
                     ))}
                 </Flex>
             </Box>

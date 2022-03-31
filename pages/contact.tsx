@@ -1,6 +1,6 @@
 import { Container, Flex, Text, useTheme } from "@chakra-ui/react";
 import type { NextPage } from "next";
-import { fadeInDown } from "react-animations";
+import { fadeInDown, fadeInRight } from "react-animations";
 import { keyframes } from "@emotion/react";
 import { TextShadow } from "../components/Text";
 
@@ -21,14 +21,13 @@ const ContactLink = ({ href, name }: { href: string; name: string }) => {
 };
 
 const ContactPage: NextPage = () => {
-  const animation = keyframes`${fadeInDown}`;
+  const animation = keyframes`${fadeInRight}`;
 
   return (
     <>
       <section style={{ height: "100%", display: "flex" }}>
         <Container
           maxW={"container.lg"}
-          animation={`1s ${animation}`}
           pt={24}
           width={["100%", "100%", "100%", "fit-content"]}
         >

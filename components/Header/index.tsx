@@ -13,6 +13,7 @@ const StyledHeader = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 30px 40px;
+  animation: 1s ${animation};
   @media (max-width: 900px) {
     padding: 30px 15px;
   }
@@ -23,7 +24,6 @@ const StyledNav = styled.nav`
   align-items: center;
   justify-content: start;
   gap: 50px;
-  animation: 1s ${animation};
   p {
     text-shadow: 0px 0px 10px #fff;
     cursor: pointer;

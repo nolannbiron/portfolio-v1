@@ -1,11 +1,11 @@
 import { Container, Flex, Text } from "@chakra-ui/react";
 import type { NextPage } from "next";
-import { fadeInDown } from "react-animations";
+import { fadeInLeft } from "react-animations";
 import { keyframes } from "@emotion/react";
 import { TextShadow } from "../components/Text";
 
 const Home: NextPage = () => {
-  const animation = keyframes`${fadeInDown}`;
+  const animation = keyframes`${fadeInLeft}`;
 
   return (
     <>
@@ -14,12 +14,11 @@ const Home: NextPage = () => {
       >
         <Container
           maxW={"container.lg"}
-          animation={`1s ${animation}`}
           width={["100%", "100%", "100%", "fit-content"]}
         >
           <Flex
-            animation={`1s ${animation}`}
             mb={5}
+            animation={`1s ${animation}`}
             alignItems="baseline"
             flexDir="column"
           >

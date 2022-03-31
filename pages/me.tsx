@@ -14,7 +14,6 @@ const Home: NextPage = () => {
       >
         <Container
           maxW={"container.lg"}
-          animation={`1s ${animation}`}
           width={["100%", "100%", "100%", "fit-content"]}
         >
           <Flex

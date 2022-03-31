@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 import { fadeInUp } from "react-animations";
 import { keyframes } from "@emotion/react";
 import styled from "@emotion/styled";
-import ProjectsWrapper from "../components/Projects";
+import ProjectsWrapper from "../components/ProjectsList";
 import { projectsList } from "../assets/projects";
 import { Constant, TextFunction, TextKey } from "../components/Text";
 

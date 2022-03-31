@@ -67,6 +67,19 @@ export const projectsList: ProjectsList = {
   all: {
     "2022": [
       {
+        title: "use-hooks",
+        description:
+          "Library of common react hooks that I use in my projects.",
+        keywords: [
+          "react",
+          "typescript",
+          "hooks",
+          "npm",
+          "rollup",
+        ],
+        github: "https://github.com/nolannbiron/usehooks",
+      },
+      {
         title: "democracy.sol",
         description:
           "First try at solidity. Building a democracy elections contract. dApp included.",

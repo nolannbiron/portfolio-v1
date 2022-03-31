@@ -16,6 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             name="viewport"
             content="width=device-width, initial-scale=1, maximum-scale=width"
           />
+          <meta name="description" content="Passionate Full-Stack Developer. Hi there 👋 My name is Nolann and I build some stuff living in the web, blockchain or outside." />
         </Head>
         <Component {...pageProps} />
       </Layout>

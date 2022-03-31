@@ -5,34 +5,13 @@ import { keyframes } from "@emotion/react";
 import styled from "@emotion/styled";
 import ProjectsWrapper from "../components/ProjectsList";
 import { projectsList } from "../assets/projects";
-import { Constant, TextFunction, TextKey, TextVariable } from "../components/Text";
+import { Constant, TextFunction, TextKey, TextShadow, TextVariable } from "../components/Text";
 
 const StyledHeading = styled(Heading)`
   font-weight: bolder;
   font-family: menlo;
   color: white;
-  text-shadow: 0 0 6px white;
-
-  .codeKey {
-    color: ${(props: any) => props.theme.colors.code.key};
-    text-shadow: 0 0 6px ${(props: any) => props.theme.colors.code.key};
-  }
-  .codeConstant {
-    color: ${(props: any) => props.theme.colors.code.constant};
-    text-shadow: 0 0 6px ${(props: any) => props.theme.colors.code.constant};
-  }
-  .codeFunction {
-    color: ${(props: any) => props.theme.colors.code.function};
-    text-shadow: 0 0 6px ${(props: any) => props.theme.colors.code.function};
-  }
-  .codeVar {
-    color: ${(props: any) => props.theme.colors.code.variable};
-    text-shadow: 0 0 6px ${(props: any) => props.theme.colors.code.variable};
-  }
-  .codeSign {
-    color: ${(props: any) => props.theme.colors.code.sign};
-    text-shadow: 0 0 6px ${(props: any) => props.theme.colors.code.sign};
-  }
+  text-shadow: 0px 0px 6px white;
 `;
 
 const ProjectsPage: NextPage = () => {
@@ -55,16 +34,17 @@ const ProjectsPage: NextPage = () => {
             </StyledHeading>
           </Flex>
           <Flex pt={10} pb={5} alignItems="start" flexDir="column">
-            <StyledHeading fontSize={["22px", "26px"]}>
-              <span className="codeConstant">⭐️ projects</span>.
-              <span className="codeVar">featured</span>
+            <StyledHeading fontSize={["22px", "26px"]}>      
+              <TextFunction>⭐️</TextFunction>        
+              <Constant> projects</Constant>.
+              <TextVariable>featured</TextVariable>
             </StyledHeading>
           </Flex>
           <ProjectsWrapper projects={projectsList.featured} />
           <Flex pt={10} pb={5} alignItems="start" flexDir="column">
             <StyledHeading fontSize={["22px", "26px"]}>
-              <span className="codeConstant">projects</span>.
-              <span className="codeVar">all</span>
+              <Constant>projects</Constant>.
+              <TextVariable>all</TextVariable>
             </StyledHeading>
           </Flex>
           <ProjectsWrapper projects={projectsList.all} />

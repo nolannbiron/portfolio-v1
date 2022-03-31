@@ -29,7 +29,7 @@ const StyledNav = styled.nav`
     cursor: pointer;
     transition: all 0.3s ease;
     &:hover {
-      span:not(Sign) {
+      span{
         text-decoration: underline;
         text-decoration-color: #5093ce;
         color: #5093ce;

@@ -14,7 +14,7 @@ interface Props {
 const ProjectsWrapper = ({ projects, withDate }: Props) => {
   const animation = keyframes`${fadeInUp}`;
 
-  if(projects instanceof Array<ProjectProps>){
+  if(projects instanceof Array){
     return (
       <Flex direction="column" pt={5} gap={4}>
         {projects.map((project, index) => (
@@ -35,7 +35,7 @@ const ProjectsWrapper = ({ projects, withDate }: Props) => {
       <Flex direction="column" pt={5} gap={4}>
           {Object.keys(projects).map((key) => (
             <>
-              <Text fontSize={['18px', "24px"]}><TextImport>{key}</TextImport></Text>
+              <Text fontWeight="bold" fontSize={['18px', "24px"]}><TextImport>{key}</TextImport></Text>
               {projects[key].map((project, index) => (
                 <Project
                   key={`project-${index}`}

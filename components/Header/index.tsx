@@ -53,7 +53,7 @@ const Header = () => {
     return(
         <StyledHeader>
             <Link href="/" passHref>
-                <Text cursor={"pointer"} fontSize={["22px", '40px']}>🚀</Text>
+                <Text cursor={"pointer"} fontSize={["22px", "30px", '40px']}>🚀</Text>
             </Link>
             <StyledNav>
                 <Link href="/projects" passHref>

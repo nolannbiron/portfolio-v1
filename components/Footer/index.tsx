@@ -43,13 +43,6 @@ const FooterNav = styled.div`
         }
     }
     animation: 1s ${animation};
-
-    @media (max-width: 900px){
-        gap: 15px;
-        p{
-            font-size: 13px;
-        }
-    }
 `
 
 const Footer = () => {
@@ -60,12 +53,12 @@ const Footer = () => {
         <StyledFooter justifyContent={content ?? 'flex-end'}>
             <FooterNav>
                 <a href="https://www.linkedin.com/in/nolann-biron/" rel="noopener noreferrer" target="_blank">
-                    <Text>
+                    <Text fontSize={["13px", "14px", "16px"]}>
                         navigate<span className="parenthesis">(</span><span className="code">&apos;/linkedin&apos;</span><span className="parenthesis">)</span>
                     </Text>
                 </a>
                 <a href="https://www.github.com/nolannbiron" rel="noopener noreferrer" target="_blank">
-                    <Text>
+                    <Text fontSize={["13px", "14px", "16px"]}>
                         navigate<span className="parenthesis">(</span><span className="code">&apos;/github&apos;</span><span className="parenthesis">)</span>
                     </Text>
                 </a>

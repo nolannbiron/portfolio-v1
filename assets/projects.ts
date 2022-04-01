@@ -51,6 +51,20 @@ export const projectsList: ProjectsList = {
       github: "https://github.com/ponyswapdex",
     },
     {
+      title: "Green SNKRS NFTs",
+      description:
+        "Nipped in the bud. NFT collection to introduce a more sustainable sneakers resell market.",
+      keywords: [
+        "nft",
+        "html",
+        "css",
+        "javascript",
+        "design",
+        "sneakers"
+      ],
+      website: "https://green-snkrs.com",
+    },
+    {
       title: "arbitrage-ftm",
       description: "An arbitrage bot using Uniswap's FlashSwap and FlashLoan, working on the FTM network.",
       keywords: [

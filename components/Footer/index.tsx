@@ -7,6 +7,7 @@ import { fadeInUp } from "react-animations";
 const animation = keyframes`${fadeInUp}`;
 
 const StyledFooter = styled.footer<{ justifyContent: string }>`
+  animation: 1s ${animation};
   display: flex;
   justify-content: ${(props) => props.justifyContent};
   padding: 30px 40px;
@@ -47,12 +48,9 @@ const FooterNav = styled.div`
       text-shadow: 0px 0px 6px #ce9178;
     }
   }
-  animation: 1s ${animation};
 `;
 
 const Footer = () => {
-  const content = useBreakpointValue({ base: "center", lg: "flex-end" });
-
   return (
     <StyledFooter justifyContent={"space-between"}>
       <Text opacity={0.7}>

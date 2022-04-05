@@ -17,21 +17,15 @@ function MyApp({ Component, pageProps }: AppProps) {
             content="width=device-width, initial-scale=1, maximum-scale=width"
           />
           <meta name="description" content="Passionate Full-Stack Developer. Hi there 👋 My name is Nolann and I build some stuff living in the web, blockchain or outside." />
-          <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-R1J7DV2QSD"
-          />
-          <script
-            dangerouslySetInnerHTML={{
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-224721553-1"></script>
+          <script dangerouslySetInnerHTML={{
               __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-            
-              gtag('config', 'G-R1J7DV2QSD');
-              `,
-            }}
-          />
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-224721553-1');      
+            `}} />      
         </Head>
         <Component {...pageProps} />
       </Layout>

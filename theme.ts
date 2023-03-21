@@ -27,6 +27,10 @@ const styles = {
       fontFamily: "Menlo, monospace",
       width: "100%",
       height: "100%",
+      paddingBottom: "env(safe-area-inset-bottom)",
+      paddingTop: "env(safe-area-inset-top)",
+      paddingLeft: "env(safe-area-inset-left)",
+      paddingRight: "env(safe-area-inset-right)"
     },
     // styles for the `a`
     a: {
